@@ -28,7 +28,7 @@ import com.parse.ParseFile;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
-
+import static android.app.Activity.RESULT_OK;
 import org.kazemicode.parstagram.MainActivity;
 import org.kazemicode.parstagram.Post;
 import org.kazemicode.parstagram.R;
@@ -42,7 +42,6 @@ import java.util.List;
 public class ComposeFragment extends Fragment {
 
     private static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 44;
-    private static final int RESULT_OK = 44;
     private EditText etDescription;
     private Button btnCaptureImage;
     private ImageView ivPostImage;
